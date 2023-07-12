@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    background-color: #ffcccc;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.text-area{
+    max-width: 800px;
+    width: 100%;
+    padding-top: 250px;
+    padding-left: 50px;
+    
+}
+
+.text-area .per{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-area .btn{
+    padding: 10px;
+    background-color:#000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-img{
+    max-width: 800px;
+    width: 100%;
+    flex-basis: 30%;
+    margin-top: 100px;
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-text .text-head{
+    font-weight: 800;
+}
+
+.card-text .text-pra{
+    margin: 15px;
+}
+
+.main-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-card .card-1{
+    background-color: #FDA7DF;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.card-1 img{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.main-card .card-2{
+    background-color: #35b977;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.card-2 img{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.main-card .card-3{
+    background-color: #7daf7f;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.card-3 img{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+.main-card .card{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#cardHaderH1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* this is a logo area */
+
+
+.logo{
+    margin-top: 60px;
+    background: #ecf0f1;
+    display: flex;
+    justify-content: center;
+ 
+    width: 60%;
+    margin: 80px auto;
+    text-align: center;
+}
+.logo .inner-logo{
+    padding: 50px;
+}
+
+.banner-2{
+    padding-top: 50px;
+    background-color: #ffcccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-2 .banner-2-text-area{
+    text-align: center;
+    max-width: 500px;
+    margin-top: 150px;
+}
+
+.banner-2-text-area h1{
+    margin-bottom: 20px;
+}
+
+.banner-2-text-area h1 span{
+    color: red;
+}
+
+.banner-2-text-area button{
+    margin-top: 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.flower-1{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flower-1 .flower-1-text{
+    text-align: center;
+    
+}
+.flower-1 .flower-area{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.searce{
+    max-width: 75%;
+    width: 100%;
+    background-image: url(image/Rectangle\ 9.png);
+    margin: 50px auto;
+    padding: 60px;
+    
+}
+
+.searce .inner-searce{
+    text-align: center;
+}
+
+.inner-searce h1{
+    margin-bottom: 10px;
+}
+
+.searce-area{
+    margin-top: 20px;
+}
+.searce-area input{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.searce-area button{
+    background-color: red;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+    
+}
+footer h1{
+    padding-top: 50px;
+}
+footer h1 span{
+    color: red;
+}
+footer p{
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+footer div{
+    max-width: 450px;
+    width: 100%;
+   margin: 0 auto;
+}
